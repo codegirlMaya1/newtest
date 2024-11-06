@@ -1,8 +1,8 @@
 import '@testing-library/jest-dom';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { MockedProvider } from '@apollo/client/testing';
-import SearchComponent from '../components/SearchComponent';
-import { GET_LOCATION } from '../queries/Queries';
+import SearchComponent from '../../components/SearchComponent';
+import { GET_LOCATION } from '../../queries/Queries';
 
 const mocks = [
   {
